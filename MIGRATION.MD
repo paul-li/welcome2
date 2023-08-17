@@ -3,16 +3,13 @@
 ## Overview of Changes
 
 1. Your username will have an "`_spe`" suffix as can be seen after clicking on your avatar in the upper right corner -- this is just the nature of this version of GitHub Enterprise Cloud.
-   <br>
-   <br><strong>This user is unique to this provisioned instance of GitHub, it cannot be used on the public-facing side of github.com.</strong>
-   <br><strong>Similarly if you have an existing github.com username, it cannot be used here.</strong>
-   <br>
+   * <strong>This user is unique to this provisioned instance of GitHub, it cannot be used on the public-facing side of github.com.</strong>
+   * <strong>Similarly if you have an existing github.com username, it cannot be used here.</strong>
 1. Organizations are now strictly controlled by the DevOps team and will no longer be specified by Application Teams.
 1. Fine-grained PATs are permitted for use -- refer to the PATS.MD for further documentation.
 1. Personal namespaced repos are no longer allowed (ie. repos under your username).
    If you don't know what that is, then it doesn't apply you and you have nothing to worry about.
 1. General repository best practices will be enforced:
-   <br>
    * <strong>NO binary files to be committed.</strong>
    * <strong>NO Forks -- use branches.</strong>
    * <strong>NO SECRETS to be committed.</strong>
