@@ -22,7 +22,7 @@ Update new GitHub repo location by editing the `<git workspace>/.git/config` fil
 1. Find the `<git workspace>/.git/config` file
 1. Make a backup copy of it
 1. Find the `[remote "origin"]` section in the `.git/config` file
-   ```
+   ```ini
    [core]
            repositoryformatversion = 0
            filemode = true
@@ -38,12 +38,12 @@ Update new GitHub repo location by editing the `<git workspace>/.git/config` fil
            merge = refs/heads/master
    ```
 1. Change the key `url` value to match the new location of the repo, ex:
-   ```
+   ```ini
    [remote "origin"]
            url = https://github-scm.spe.sony.com/pli2/test-mule
    ```
    to
-   ```
+   ```ini
    [remote "origin"]
            url = https://github.com/<new org>/test-mule
    ```
