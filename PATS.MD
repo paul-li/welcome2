@@ -13,23 +13,26 @@ Make you read the previous [section's links](#personal-access-tokens) before pro
 
 ### Basic Permissions to do work
 
->Repository Access
+```
+Repository Access
   `All repositories`
 
->Permissions
+Permissions
   Repository Permissions
     `Access: No access` for all permissions by default
     Contents: `Access: Read and write`
     Metadata: `Access: Read-only` (should be set once Contents is set to Read and write)
   Account Permissions
     `Access: No access` for all permissions by default
+```
 
 ### Expert Permissions for CLI wizards
 
->Repository Access
+```
+Repository Access
   `All repositories`
 
->Permissions
+Permissions
   Repository Permissions
     `Access: No access` for all permissions by default
     Contents: `Access: Read and write`
@@ -38,6 +41,7 @@ Make you read the previous [section's links](#personal-access-tokens) before pro
     Pull-Requests: `Access: Read and write`
   Account Permissions
     `Access: No access` for all permissions by default
+```
 
 ## Multiple PATs
 
