@@ -9,33 +9,34 @@ A [reference](https://docs.github.com/en/enterprise-cloud@latest/authentication/
 
 ## Permission Access
 
-Make you read the previous section's links before proceeding on creating the PATs
+Make you read the previous [section's links](#personal-access-tokens) before proceeding on creating the PATs.
 
 ### Basic Permissions to do work
 
-Repository Access:
-  All repositories
+>Repository Access
+  `All repositories`
 
-Permissions:
-  Repository Permissions:
+>Permissions
+  Repository Permissions
     `Access: No access` for all permissions by default
     Contents: `Access: Read and write`
     Metadata: `Access: Read-only` (should be set once Contents is set to Read and write)
-  Account Permissions:
+  Account Permissions
     `Access: No access` for all permissions by default
 
 ### Expert Permissions for CLI wizards
 
-Repository Access: All repositories
+>Repository Access
+  `All repositories`
 
-Permissions:
-  Repository Permissions:
+>Permissions
+  Repository Permissions
     `Access: No access` for all permissions by default
     Contents: `Access: Read and write`
     Issues: `Access: Read and write`
     Metadata: `Access: Read-only` (should be set once Contents is set to Read and write)
     Pull-Requests: `Access: Read and write`
-  Account Permissions:
+  Account Permissions
     `Access: No access` for all permissions by default
 
 ## Multiple PATs
