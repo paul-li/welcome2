@@ -41,11 +41,11 @@ If you can't read the short [GitHub blog post](https://github.blog/2022-10-18-in
 > **Skip this section for now**
 >
 
-4. Click "Generate token"
+4. Click `Generate token`
 
 Save the new token to your personal password/key management software.
 
-**If you want to change the `Permissions` of any self-creatd PAT, YOU WILL NEED TO CREATE A NEW ONE!**
+**TO CHANGE THE `Permissions` OF ANY PAT, YOU WILL NEED TO CREATE A NEW ONE!**
 
 ## Multiple PATs
 
